@@ -75,6 +75,24 @@ Jumbotron
   font-size: 1.7rem; }
 
 /* ===========================
+Product Section 
+============================== */
+.productSection__title {
+  font-size: 1.2rem;
+  letter-spacing: .8rem; }
+
+.productSection__subTitle {
+  font-size: 1.65rem; }
+  .productSection__subTitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #23282D;
+    height: .2rem;
+    width: 11rem; }
+
+/* ===========================
 Bootstrap Extensions
 ============================== */
 .font-weight-md {
