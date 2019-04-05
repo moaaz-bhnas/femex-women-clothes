@@ -141,6 +141,39 @@ Product Section
   }
 }
 
+/* product list ----- */
+
+/* product image --- */
+.product__image {
+  height: 18rem;
+  object-fit: cover;
+  object-position: 50% 20%;
+
+  @media screen and (min-width: $break-m) and (max-width: $break-l) {
+    height: 15rem;
+  }
+}
+
+/* collection --- */
+.product__collection {
+  padding-bottom: .8rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: .5rem;
+    background-color: #24282D;
+    width: 4rem;
+    height: .14rem;
+  }
+}
+
+/* product name */
+.product__name {
+  font-size: 1rem;
+}
+
 /* ===========================
 Bootstrap Extensions
 ============================== */
