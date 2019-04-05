@@ -70,13 +70,14 @@ Jumbotron
   background: darkred url(img/banner.png) no-repeat center/cover;
   padding: 5rem 1rem; }
 
-/* title */
+/* title --- */
 .jumbotron__title {
   font-size: 1.7rem; }
 
 /* ===========================
 Product Section 
 ============================== */
+/* title --- */
 .productSection__title {
   font-size: 1.2rem;
   letter-spacing: .8rem; }
@@ -91,6 +92,20 @@ Product Section
     background-color: #23282D;
     height: .2rem;
     width: 11rem; }
+
+/* filter form --- */
+.productsFilterForm {
+  flex-basis: 100%; }
+  @media screen and (min-width: 992px) {
+    .productsFilterForm {
+      flex: 1; } }
+
+.productsFilterForm__filter {
+  flex-basis: 50%;
+  padding: .2rem .3rem; }
+  @media screen and (min-width: 768px) {
+    .productsFilterForm__filter {
+      flex: 1; } }
 
 /* ===========================
 Bootstrap Extensions

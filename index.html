@@ -74,12 +74,56 @@
   </div> <!-- banner -->
 
   <section class="productSection container py-5">
-    <div class="row">
-      <hgroup class="col-auto mb-3 mb-md-0">
+    <div class="row align-items-center">
+      <hgroup class="col-auto mb-3 mb-lg-0 mr-4">
         <h2 class="productSection__title">Products</h2>
         <h3 class="productSection__subTitle text-uppercase font-weight-bold position-relative pb-3">Woman's Clothes</h3>
-      </hgroup>
-    </div>
+      </hgroup> 
+      <form class="col productsFilterForm">
+        <div class="form-row justify-content-center">
+          <div class="productsFilterForm__filter mb-2 mb-sm-0">
+            <select class="custom-select">
+              <option selected>size</option>
+              <option value="">small</option>
+              <option value="">medium</option>
+              <option value="">large</option>
+            </select>
+          </div>
+          <div class="productsFilterForm__filter mb-2 mb-sm-0">
+            <select class="custom-select">
+              <option selected>color</option>
+              <option value="">color-1</option>
+              <option value="">color-2</option>
+              <option value="">color-3</option>
+            </select>
+          </div>
+          <div class="productsFilterForm__filter mb-2 mb-sm-0">
+            <select class="custom-select">
+              <option selected>price</option>
+              <option value="">price-1</option>
+              <option value="">price-2</option>
+              <option value="">price-3</option>
+            </select>
+          </div>
+          <div class="productsFilterForm__filter mb-2 mb-sm-0">
+            <select class="custom-select">
+              <option selected>category</option>
+              <option value="">category-1</option>
+              <option value="">category-2</option>
+              <option value="">category-3</option>
+            </select>
+          </div>
+          <div class="productsFilterForm__filter">
+            <select class="custom-select">
+              <option selected>style</option>
+              <option value="">style-1</option>
+              <option value="">style-2</option>
+              <option value="">style-3</option>
+            </select>
+          </div>
+        </div>
+      </form> <!-- filter form -->
+    </div> <!-- row -->
   </section> <!-- product section -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
