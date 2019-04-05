@@ -129,9 +129,43 @@ Product Section
     width: 4rem;
     height: .14rem; }
 
-/* product name */
+/* product name --- */
 .product__name {
   font-size: 1rem; }
+
+/* ===========================
+Feature Section 
+============================== */
+.featureSection {
+  background-color: #15171a; }
+
+/* icons --- */
+.feature__iconContainer {
+  width: 3.4rem;
+  height: 3.4rem; }
+
+/* ===============================
+Footer
+================================== */
+.footer {
+  background-color: #000; }
+
+/* subscription input */
+.subscriptionForm__input {
+  color: #fff;
+  border: none;
+  border-bottom: 1px solid;
+  background-color: transparent;
+  transition: border-width .2s; }
+  .subscriptionForm__input:focus {
+    outline: none;
+    border-width: 2px; }
+  .subscriptionForm__input::placeholder {
+    color: #fff; }
+
+/* subscription button */
+.subscriptionForm__button {
+  border-bottom: 1px solid; }
 
 /* ===========================
 Bootstrap Extensions
