@@ -1,1 +1,108 @@
-/* test */
+/* ===============================
+Variables
+================================== */
+/* Colors --- */
+$dark: #23282D;
+$darker: #15171a;
+
+/* Breakpoints --- */
+$break-s: 576px;
+$break-m: 768px;
+$break-l: 992px;
+$break-xl: 1200px;
+
+/* ===============================
+Base Styles
+================================== */
+.body {
+  color: $dark;
+}
+
+/* list --- */
+.list {
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+/* link --- */
+// modifiers
+.link_color_inherited {
+  color: inherit;
+}
+.link_decorationOnHover_none:hover {
+  text-decoration: none;
+}
+.link_decoration_bottomBorder {
+  border-bottom: 1px solid;
+}
+.link_fontWeight_bold {
+  font-weight: 500;
+}
+
+/* ===========================
+Navbar 
+============================== */
+/* search input --- */
+.navbar__searchInput {
+  border: none;
+  transition-property: border-color, box-shadow;
+  transition-duration: .15s;
+
+  &:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+  }
+}
+
+/* user/cart icons --- */
+.navbar__iconLink {
+  color: $dark!important;
+  transition: color .15s;
+
+  &:hover,
+  &:focus {
+    color: rgba($color: $dark, $alpha: .8)!important;
+  }
+}
+
+/* ===========================
+Breadcrumb 
+============================== */
+.breadcrumbBar {
+  background-color: $dark;
+  z-index: 1;
+}
+
+/* left arrow --- */
+.breadcrumbBar__arrowLink {
+  color: #fff;
+  transition: color .1s;
+
+  &:hover,
+  &:focus {
+    color: rgba(255, 255, 255, .5);
+  }
+}
+
+/* ===========================
+Jumbotron 
+============================== */
+.jumbotron {
+  background-color: darkred;
+  background: darkred url(img/banner.png) no-repeat center / cover;
+  padding: 5rem 1rem;
+}
+
+/* title */
+.jumbotron__title {
+  font-size: 1.7rem;
+}
+
+/* ===========================
+Bootstrap Extensions
+============================== */
+.font-weight-md {
+  font-weight: 500;
+}
